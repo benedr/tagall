@@ -1,0 +1,16 @@
+{
+  "name": "telegram-group-tagall-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Telegram group bot that tags members it has observed.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env bot.js"
+  },
+  "engines": {
+    "node": ">=22.9"
+  },
+  "dependencies": {
+    "grammy": "^1.38.3"
+  }
+}
